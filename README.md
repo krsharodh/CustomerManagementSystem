@@ -1,4 +1,4 @@
-# Customer Managemen tSystem
+# Customer Management System
 
 # DeveloperPracticalTest
 Manages customer data along with call notes.
