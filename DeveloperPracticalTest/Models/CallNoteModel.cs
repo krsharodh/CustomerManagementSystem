@@ -7,7 +7,7 @@ namespace DeveloperPracticalTest
     /// <summary>
     /// Call Note Model
     /// </summary>
-    class CallNoteModel : ICallNoteModel
+    public class CallNoteModel : ICallNoteModel
     {
         public static int CallNoteIdSeed { get; set; } = 1;
 

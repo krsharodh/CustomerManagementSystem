@@ -1,6 +1,5 @@
 using System;
 using Xunit;
-using DeveloperPracticalTest;
 
 namespace DeveloperPracticalTest.Tests
 {
@@ -10,13 +9,13 @@ namespace DeveloperPracticalTest.Tests
         public void CustomerModel_ShouldAddNewCustomer()
         {
             // Arrange
-            CustomerModel customerExpected = new CustomerModel();
+            int customerIDExpected = 0;
 
             // Act
             CustomerModel customerActual = new CustomerModel();
 
             // Assert
-            Assert.Equal(customerExpected.CustomerId, customerActual.CustomerId);
+            Assert.Equal(customerIDExpected, customerActual.CustomerId);
         }
 
         [Fact]
