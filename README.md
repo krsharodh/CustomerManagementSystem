@@ -16,8 +16,10 @@ Developed using Visual Studio 2019 Community Edition
 | coverlet.collector | 3.0.2 |
 
 ### Project Directory
-Main Project - DeveloperPracticalTest
-Unit Testing - DeveloperPracticalTest.Tests
+| Framework      | Version     |
+| -------------- | ----------- |
+| Main Project   | DeveloperPracticalTest         |
+| Unit Testing   | DeveloperPracticalTest.Tests   | 
 
 ### How to run the main project
 1. Clone the repo into a folder
