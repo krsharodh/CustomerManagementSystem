@@ -27,9 +27,14 @@ Developed using Visual Studio 2019 Community Edition
 3. Alternatively import the project into Visual Studio and click run button.
 4. The unit test cases can be run using run all test cases button
 
-### TODO
+### Decisions Made
 Considering the scope and time available for the project, following decision have been made
 1. Unit testing is only done for Customer and CallNote Model Classes.
 2. The data generated from the application is not stored in a permanent storage like database.
 3. Error handling has been done to 80% of the cases. Some edge cases might be missing.
+
+### TODO
+1. The application can be containerised using Docker.
+2. Database can be added to store the data permanently.
+3. CI/CD pipepline could be setup to run unit test cases automatically.
 
