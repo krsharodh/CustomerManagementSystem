@@ -28,7 +28,7 @@ Developed using Visual Studio 2019 Community Edition
 4. The unit test cases can be run using run all test cases button
 
 ### TODO
-Considering the scope and time available for the project the following decision have been made
+Considering the scope and time available for the project, following decision have been made
 1. Unit testing is only done for Customer and CallNote Model Classes.
 2. The data generated from the application is not stored in a permanent storage like database.
 3. Error handling has been done to 80% of the cases. Some edge cases might be missing.
